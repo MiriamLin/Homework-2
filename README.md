@@ -36,4 +36,4 @@ Investigate the minting function in the UniswapV2Pair contract. When depositing 
 ## Problem 5
 What is a sandwich attack, and how might it impact you when initiating a swap?
 
-> Sandwich Attack 是在發現有利可圖的交易時，在這筆交易前安插自己的交易並賺取利差。像是發現有人要購買貨幣前，用較低的價格買入再用較高的價格賣給他。若在 initiating a swap 時成為 sandwich attack 的目標，可能會使 slippage 增加，讓我們以更高的價格買入或更低的價格賣出，造成交易損失。
+> Sandwich Attack 是在發現有利可圖的交易時，在這筆交易前安插自己的交易並賺取利差。像是發現有人要購買貨幣前，用較低的價格買入，再用較高的價格賣給他。若在 initiating a swap 時成為 sandwich attack 的目標，可能會使 slippage 增加，讓我們以更高的價格買入或更低的價格賣出，造成交易損失。
